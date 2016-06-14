@@ -6,8 +6,8 @@ spl_autoload_register(function ($class) {
 
     $paths = preg_split('|\\\\|i', $class);
 
-    if ($paths[0] != "ztphplibs") {
-        echo "Error:[autoload only support ztphplibs. Your Class is {$class}]\n";
+    if ($paths[0] != "jmzlibs") {
+        echo "Error:[autoload only support jmzlibs. Your Class is {$class}]\n";
     }
 
     array_splice($paths, 2, 0, array("src"));
