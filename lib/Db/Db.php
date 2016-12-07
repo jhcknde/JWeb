@@ -1,17 +1,12 @@
 <?php
-/**
- *	数据库操作类，支持MySQL,SQLite
- *
- *
- */
-
-namespace Db;
+namespace DB;
 
 class Db{
-
-
+	
+	function test(){
+		var_dump("\ntest success");
+	}
 
 }
-
 
 ?>
